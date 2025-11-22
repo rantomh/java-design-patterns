@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class MediatorTest {
 
     @Test
-    void test() {
+    public void test() {
         ChatMediator mediator = new ChatRoomMediator();
 
         final String senderName = "Alice";

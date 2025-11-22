@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class IteratorTest {
 
     @Test
-    void test() {
+    public void test() {
         Playlist playlist = new Playlist();
         playlist.addSong(new Song("A"));
         playlist.addSong(new Song("B"));

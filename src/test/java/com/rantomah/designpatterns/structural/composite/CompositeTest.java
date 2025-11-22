@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class CompositeTest {
 
     @Test
-    void test() {
+    public void test() {
         Developer john = new Developer("John Doe", 12000f);
         Designer jane = new Designer("Jane Doe", 15000f);
 

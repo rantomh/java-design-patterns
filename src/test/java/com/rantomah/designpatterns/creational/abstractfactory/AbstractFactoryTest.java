@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class AbstractFactoryTest {
 
     @Test
-    void test() {
+    public void test() {
         DoorFactory woodenFactory = new WoodenDoorFactory();
 
         Door woodenDoor = woodenFactory.makeDoor();

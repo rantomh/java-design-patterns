@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class CommandTest {
 
     @Test
-    void test() {
+    public void test() {
         Editor editor = new Editor();
         CommandHistory history = new CommandHistory();
 

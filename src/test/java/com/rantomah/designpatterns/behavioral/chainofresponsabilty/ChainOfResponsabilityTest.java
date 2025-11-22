@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class ChainOfResponsabilityTest {
 
     @Test
-    void test() {
+    public void test() {
         Director director = new Director();
         director.setAvailable(false);
 

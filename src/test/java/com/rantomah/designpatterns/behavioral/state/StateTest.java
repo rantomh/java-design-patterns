@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class StateTest {
 
     @Test
-    void test() {
+    public void test() {
         MusicPlayer player = new MusicPlayer();
         assertThat(player.getState().getName()).isEqualTo("Stopped");
 

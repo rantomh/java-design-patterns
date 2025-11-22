@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class MementoTest {
 
     @Test
-    void test() {
+    public void test() {
         Editor editor = new Editor();
         EditorHistory history = new EditorHistory();
 

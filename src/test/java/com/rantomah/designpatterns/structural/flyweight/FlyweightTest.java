@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class FlyweightTest {
 
     @Test
-    void test() {
+    public void test() {
         TeaMaker teaMaker = new TeaMaker();
         TeaShop shop = new TeaShop(teaMaker);
 
