@@ -4,10 +4,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
 
-public class SimpleFactoryTest {
+class SimpleFactoryTest {
 
     @Test
-    public void test() {
+    void test() {
         Door door = DoorFactory.makeDoor(100, 200);
         assertThat(door.getWidth()).isEqualTo(100);
         assertThat(door.getHeight()).isEqualTo(200);

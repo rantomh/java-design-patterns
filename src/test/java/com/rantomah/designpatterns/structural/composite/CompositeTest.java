@@ -4,10 +4,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
 
-public class CompositeTest {
+class CompositeTest {
 
     @Test
-    public void test() {
+    void test() {
         Developer john = new Developer("John Doe", 12000f);
         Designer jane = new Designer("Jane Doe", 15000f);
 

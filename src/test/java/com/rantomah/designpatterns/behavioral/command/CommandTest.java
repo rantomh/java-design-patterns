@@ -4,10 +4,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
 
-public class CommandTest {
+class CommandTest {
 
     @Test
-    public void test() {
+    void test() {
         Editor editor = new Editor();
         CommandHistory history = new CommandHistory();
 
@@ -25,6 +25,6 @@ public class CommandTest {
         assertThat(editor.getText()).isEqualTo("Hello ");
 
         history.pop().undo();
-        assertThat(editor.getText()).isEqualTo("");
+        assertThat(editor.getText()).isEmpty();
     }
 }

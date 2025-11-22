@@ -3,10 +3,10 @@ package com.rantomah.designpatterns.creational.builder;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class BuilderTest {
+class BuilderTest {
 
     @Test
-    public void test() {
+    void test() {
         Burger burger =
                 new BurgerBuilder()
                         .size(2)

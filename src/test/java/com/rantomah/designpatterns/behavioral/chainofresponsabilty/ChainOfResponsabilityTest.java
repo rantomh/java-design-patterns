@@ -4,10 +4,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
 
-public class ChainOfResponsabilityTest {
+class ChainOfResponsabilityTest {
 
     @Test
-    public void test() {
+    void test() {
         Director director = new Director();
         director.setAvailable(false);
 

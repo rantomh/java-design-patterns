@@ -4,10 +4,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
 
-public class MementoTest {
+class MementoTest {
 
     @Test
-    public void test() {
+    void test() {
         Editor editor = new Editor();
         EditorHistory history = new EditorHistory();
 

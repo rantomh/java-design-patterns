@@ -2,7 +2,7 @@ package com.rantomah.designpatterns.behavioral.methodtemplate;
 
 public abstract class Pipeline {
 
-    public final void runPipeline() {
+    public final void run() {
         checkout();
         lint();
         test();

@@ -4,10 +4,10 @@ import static org.assertj.core.api.Assertions.assertThatCode;
 
 import org.junit.jupiter.api.Test;
 
-public class AbstractFactoryTest {
+class AbstractFactoryTest {
 
     @Test
-    public void test() {
+    void test() {
         DoorFactory woodenFactory = new WoodenDoorFactory();
 
         Door woodenDoor = woodenFactory.makeDoor();

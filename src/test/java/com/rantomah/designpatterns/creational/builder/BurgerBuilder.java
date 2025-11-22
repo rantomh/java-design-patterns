@@ -8,8 +8,6 @@ public class BurgerBuilder {
     private boolean lettuce;
     private boolean tomato;
 
-    public BurgerBuilder() {}
-
     public int getSize() {
         return size;
     }

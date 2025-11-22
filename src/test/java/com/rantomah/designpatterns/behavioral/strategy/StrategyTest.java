@@ -4,10 +4,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
 
-public class StrategyTest {
+class StrategyTest {
 
     @Test
-    public void test() {
+    void test() {
         Integer[] smalldataset = new Integer[] {3, 4, 1, 2};
         Integer[] bigdataset = new Integer[] {4, 3, 2, 8, 10, 5, 6, 9, 7};
 

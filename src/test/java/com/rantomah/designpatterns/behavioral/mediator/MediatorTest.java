@@ -4,10 +4,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
 
-public class MediatorTest {
+class MediatorTest {
 
     @Test
-    public void test() {
+    void test() {
         ChatMediator mediator = new ChatRoomMediator();
 
         final String senderName = "Alice";

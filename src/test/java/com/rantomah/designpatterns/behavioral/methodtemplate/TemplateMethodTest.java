@@ -1,15 +1,36 @@
 package com.rantomah.designpatterns.behavioral.methodtemplate;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 import org.junit.jupiter.api.*;
 
-public class TemplateMethodTest {
+class TemplateMethodTest {
+
+    private static final String OUTPUT =
+"""
+run git clone
+run mvn spotless:apply
+run mvn test
+run mvn package
+run mvn deploy
+run svn checkout
+run npm run lint
+run npm run test
+run npm run build
+run npm publish
+""";
 
     @Test
-    public void test() {
+    void test() {
+        var output = new java.io.ByteArrayOutputStream();
+        System.setOut(new java.io.PrintStream(output));
+
         Pipeline javaPipeline = new MvnPipeline();
         Pipeline reactPipeline = new NpmPipeline();
 
-        javaPipeline.runPipeline();
-        reactPipeline.runPipeline();
+        javaPipeline.run();
+        reactPipeline.run();
+
+        assertThat(output.toString()).isEqualToIgnoringNewLines(OUTPUT);
     }
 }

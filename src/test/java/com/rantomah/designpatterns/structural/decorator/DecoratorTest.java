@@ -3,10 +3,10 @@ package com.rantomah.designpatterns.structural.decorator;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class DecoratorTest {
+class DecoratorTest {
 
     @Test
-    public void test() {
+    void test() {
 
         Coffee simpleCoffee = new SimpleCoffee();
 

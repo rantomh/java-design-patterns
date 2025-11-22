@@ -4,10 +4,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
 
-public class FactoryMethodTest {
+class FactoryMethodTest {
 
     @Test
-    public void test() {
+    void test() {
 
         HiringManager devManager = new DevelopmentManager();
         Interviewer devInterviewer = devManager.makeInterviewer();

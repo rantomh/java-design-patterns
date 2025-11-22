@@ -4,10 +4,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
 
-public class IteratorTest {
+class IteratorTest {
 
     @Test
-    public void test() {
+    void test() {
         Playlist playlist = new Playlist();
         playlist.addSong(new Song("A"));
         playlist.addSong(new Song("B"));

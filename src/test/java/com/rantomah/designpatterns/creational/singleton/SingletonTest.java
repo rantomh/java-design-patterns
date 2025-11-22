@@ -3,10 +3,10 @@ package com.rantomah.designpatterns.creational.singleton;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class SingletonTest {
+class SingletonTest {
 
     @Test
-    public void test() {
+    void test() {
         President president1 = President.getInstance();
         President president2 = President.getInstance();
 

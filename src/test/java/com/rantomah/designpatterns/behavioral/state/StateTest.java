@@ -4,10 +4,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
 
-public class StateTest {
+class StateTest {
 
     @Test
-    public void test() {
+    void test() {
         MusicPlayer player = new MusicPlayer();
         assertThat(player.getState().getName()).isEqualTo("Stopped");
 

@@ -3,10 +3,10 @@ package com.rantomah.designpatterns.creational.prototype;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class PrototypeTest {
+class PrototypeTest {
 
     @Test
-    public void test() throws CloneNotSupportedException {
+    void test() throws CloneNotSupportedException {
         final String originalName = "Jolly";
         final String copyName = "Dolly";
         final String category = "Mountain Sheep";

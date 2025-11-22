@@ -3,10 +3,10 @@ package com.rantomah.designpatterns.structural.bridge;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class BridgeTest {
+class BridgeTest {
 
     @Test
-    public void test() {
+    void test() {
         Theme darkTheme = new DarkTheme();
 
         WebPage about = new About(darkTheme);
