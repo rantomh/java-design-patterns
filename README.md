@@ -1,7 +1,7 @@
 
 # Java Design Patterns (23 Patterns)
 
-This repository contains Java implementations of **23 classic software design patterns**, based on well-known OOP design principles (originally inspired by examples found in other languages).  
+This repository contains Java implementations of **23 classic software design patterns**, based on well-known OOP design principles.  
 Each pattern is implemented in a clean and minimal way, focusing on **structure and behavior rather than complex business logic**.
 
 ---
@@ -21,7 +21,7 @@ src
 ```
 
 > **Note:**  
-> There is **no `src/main/java` directory**. All implementations (including tests) are under `test` purely for convenience to keep examples together.
+> All implementations (including tests) are under `test` package purely for convenience to keep examples together.
 
 ---
 
@@ -108,7 +108,14 @@ This project is ideal as:
 
 ---
 
-## 🧍 Author
+# 📄 License
 
-**Rantomah** — Software Developer  
-Project created for educational & reference purposes.
+This project is under the **MIT License** --- free for personal and
+commercial use.
+
+---
+
+# 🙌 Author
+
+**Rantomah** [Linkedin](https://www.linkedin.com/in/rantomah)\
+Senior Fullstack Developer & Software Architect
